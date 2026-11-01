@@ -1,0 +1,28 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* Sfondo celeste personalizzato per la pagina intera */
+body {
+    background-color: #e0fef2 !important; /* Celeste soft e piacevole */
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Stile per i titoli primari */
+h1, h2 {
+    color: #8e03a1
+     !important; /* Blu/Celeste intenso */
+    font-weight: bold;
+}
+
+/* Stile per i paragrafi o sotto-titoli */
+p {
+    color: #0c4a6e;
+}
+
+/* Personalizzazione dei pulsanti */
+.btn-primary {
+    background-color: #0284c7 !important;
+    border-color: #0284c7 !important;
+}
+
+.btn-primary:hover {
+    background-color: #0369a1 !important;
+}

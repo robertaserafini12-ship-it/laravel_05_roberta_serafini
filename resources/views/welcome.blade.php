@@ -1,7 +1,7 @@
 <x-layout>
     <div class="container my-5">
         
-        <!-- Sezione Benvenuto (Hero) -->
+        <!-- Sezione Benvenuto  -->
         <div class="p-5 mb-4 bg-light rounded-3 shadow-sm border">
             <div class="container-fluid py-5">
                 <h1 class="display-5 fw-bold text-primary">Benvenuto nel mio Blog! 🚀</h1>
@@ -14,42 +14,42 @@
             </div>
         </div>
 
-        <!-- Sezione 3 Libri in Primo Piano -->
+        <!-- Sezione Articoli in Primo Piano -->
         <div class="my-5">
-            <h2 class="mb-4 fw-bold text-dark">I libri in primo piano 📚</h2>
+            <h2 class="mb-4 fw-bold text-dark">Gli articoli in primo piano 📰</h2>
             <div class="row">
                 
-                <!-- Libro 1 -->
+                <!-- Articolo 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 rounded-3">
-                        <img src="https://picsum.photos/400/250?random=1" class="card-img-top" alt="Libro 1">
+                        <img src="https://picsum.photos/400/250?random=1" class="card-img-top" alt="Articolo 1">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Titolo del Libro 1</h5>
-                            <p class="card-text text-secondary">Breve descrizione o recensione del primo libro in evidenza nel blog.</p>
+                            <h5 class="card-title fw-bold">Titolo dell'Articolo 1</h5>
+                            <p class="card-text text-secondary">Breve descrizione o anteprima del primo articolo in evidenza nel blog.</p>
                             <a href="#" class="btn btn-outline-primary mt-auto align-self-start">Leggi di più</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Libro 2 -->
+                <!-- Articolo 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 rounded-3">
-                        <img src="https://picsum.photos/400/250?random=2" class="card-img-top" alt="Libro 2">
+                        <img src="https://picsum.photos/400/250?random=2" class="card-img-top" alt="Articolo 2">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Titolo del Libro 2</h5>
-                            <p class="card-text text-secondary">Breve descrizione o recensione del secondo libro in evidenza nel blog.</p>
+                            <h5 class="card-title fw-bold">Titolo dell'Articolo 2</h5>
+                            <p class="card-text text-secondary">Breve descrizione o anteprima del secondo articolo in evidenza nel blog.</p>
                             <a href="#" class="btn btn-outline-primary mt-auto align-self-start">Leggi di più</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Libro 3 -->
+                <!-- Articolo 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 rounded-3">
-                        <img src="https://picsum.photos/400/250?random=3" class="card-img-top" alt="Libro 3">
+                        <img src="https://picsum.photos/400/250?random=3" class="card-img-top" alt="Articolo 3">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title fw-bold">Titolo del Libro 3</h5>
-                            <p class="card-text text-secondary">Breve descrizione o recensione del terzo libro in evidenza nel blog.</p>
+                            <h5 class="card-title fw-bold">Titolo dell'Articolo 3</h5>
+                            <p class="card-text text-secondary">Breve descrizione o anteprima del terzo articolo in evidenza nel blog.</p>
                             <a href="#" class="btn btn-outline-primary mt-auto align-self-start">Leggi di più</a>
                         </div>
                     </div>
@@ -77,8 +77,8 @@
                     <form method="POST" action="{{ route('contact_us.submit') }}">
                         @csrf
                         <div class="mb-3">
-                            <label for="name" class="form-label fw-semibold">Nome</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
+                            <label for="user" class="form-label fw-semibold">Nome</label>
+                            <input type="text" class="form-control" id="user" name="user" required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label fw-semibold">Email</label>

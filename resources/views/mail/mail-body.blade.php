@@ -7,8 +7,11 @@
     <title>Mail</title>
 </head>
 <body>
-    <h1>This is an email</h1>
-   
+    <h1>Hai ricevuto un nuovo messaggio di contatto!</h1>
+    
+    <p><strong>Nome:</strong> {{ $userData['user'] }}</p>
+    <p><strong>Email:</strong> {{ $userData['email'] }}</p>
+    <p><strong>Messaggio:</strong></p>
+    <p>{{ $userData['message'] }}</p>
 </body>
-
 </html>
